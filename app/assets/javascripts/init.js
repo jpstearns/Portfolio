@@ -9,11 +9,11 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global': { range: '*', href: 'css/style.css', viewport: { scalable: false } },
-			'wide': { range: '-1680', href: 'css/style-wide.css' },
-			'normal': { range: '-1280', href: 'css/style-normal.css' },
-			'mobile': { range: '-736', href: 'css/style-mobile.css' },
-			'mobilep': { range: '-480', href: 'css/style-mobilep.css' }
+			'global': { range: '*', href: '/assets/style.css', viewport: { scalable: false } },
+			'wide': { range: '-1680', href: '/assets/style-wide.css' },
+			'normal': { range: '-1280', href: '/assets/style-normal.css' },
+			'mobile': { range: '-736', href: '/assets/style-mobile.css' },
+			'mobilep': { range: '-480', href: '/assets/style-mobilep.css' }
 		}
 	});
 
